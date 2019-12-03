@@ -1,4 +1,6 @@
 # Define the following variables
+while
+
 # name, last_name, age, eye_color, hair_color
 # name = ''
 # last_name = ''

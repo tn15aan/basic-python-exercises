@@ -16,6 +16,8 @@ age = input('Enter the age')
 
 # Print them back to the user as conversation
 # Example: 'Hello Jack! Welcome, your age is 26, your eyes are green and your hair color is black.
+print('Hello', name ,'!', 'Welcome, your age is', age, ', your eyes are', eye_color,
+      'and your hair color is', hair_color)
 
 
 #Section 2 - Calculate in what year was the person born? and responde back.

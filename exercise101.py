@@ -8,7 +8,11 @@ hair_color = 'Black'
 age = '23'
 
 # Prompt user for input and Re-assign these
-
+name = input('Enter the first name')
+last_name = input('Enter the last name')
+eye_color = input('Enter eye color')
+hair_color = input('Enter a hair color')
+age = input('Enter the age')
 
 # Print them back to the user as conversation
 # Example: 'Hello Jack! Welcome, your age is 26, your eyes are green and your hair color is black.

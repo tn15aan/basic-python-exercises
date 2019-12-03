@@ -1,12 +1,11 @@
 # Define the following variables
-while
 
-# name, last_name, age, eye_color, hair_color
-# name = ''
-# last_name = ''
-# eye_color = ''
-# hair_color = ''
-# age = ''
+#name, last_name, age, eye_color, hair_color
+name = 'Jon'
+last_name = 'Doe'
+eye_color = 'Brown'
+hair_color = 'Black'
+age = '23'
 
 # Prompt user for input and Re-assign these
 

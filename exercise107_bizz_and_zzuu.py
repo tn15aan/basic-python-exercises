@@ -31,7 +31,3 @@ def bizz_zzuu(num):
     else:
         return str(num) + ' is not a multiple of 3 or 5, please try again.'
 
-print(bizz_zzuu(30))
-print(bizz_zzuu(33))
-print(bizz_zzuu(35))
-print(bizz_zzuu(37))

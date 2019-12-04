@@ -20,3 +20,18 @@
     # it should have simple instructions on how to run the project
 # it should have git and git history
 # it should be on git hub
+
+def bizz_zzuu(num):
+    if num % 3 == 0 and num % 5 == 0:
+        return str(num) + ' is a multiple of 3 or 5, bizzzzuu'
+    elif num % 3 == 0:
+        return str(num) + ' is a multiple of 3, bizz!'
+    elif num % 5 == 0:
+        return str(num) + ' is a multiple of 5, zzuu!'
+    else:
+        return str(num) + ' is not a multiple of 3 or 5, please try again.'
+
+print(bizz_zzuu(30))
+print(bizz_zzuu(33))
+print(bizz_zzuu(35))
+print(bizz_zzuu(37))

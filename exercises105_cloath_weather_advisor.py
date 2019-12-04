@@ -15,3 +15,19 @@
 
 # Make it so you keep playing until we say: 'No more Magic'
 
+attire1 = 'take your shorts!'
+attire2 = 'take rain coat'
+attire3 = 'Take your umbrella'
+attire4 = 'stay home'
+
+weather = input('How is the weather? Please choose between sunny, stormy, rainy or rainy and stormy')
+if weather == 'sunny':
+    print(attire1)
+elif weather == 'stormy':
+    print(attire2)
+elif weather == 'rainy':
+    print(attire3)
+elif weather == 'rainy and stormy':
+    print(attire4)
+else:
+    print("sorry, i didn't quite catch that")
